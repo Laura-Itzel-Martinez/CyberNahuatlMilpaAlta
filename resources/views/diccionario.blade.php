@@ -546,14 +546,14 @@
                     <option value='100'>100</option>
                     <option value='-1'>Mostrar todos los registros</option>
                 </select>  ` +
-                "registros por pagina",
+                "registros por página",
                 "zeroRecords": "Palabra no encontrada",
                 "info": "Mostrando la pagina _PAGE_ de _PAGES_",
                 "infoEmpty": "No records available",
                 "infoFiltered": "(filtrado de _MAX_ registros totales)",
                 'search' : 'Buscar:',
                 'paginate' : {
-                    'next' : 'siguiente',
+                    'next' : 'Siguiente',
                     'previous' : 'Anterior'
                 }
                 }

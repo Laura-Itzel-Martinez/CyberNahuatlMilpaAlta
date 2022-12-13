@@ -1,0 +1,33 @@
+
+#contenedor_colores{
+
+    margin-top: 30px;
+    font-family:'Source Sans Pro';
+}
+#id_colores{
+
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0 !important;
+    border: 0;
+    overflow-x: hidden;
+    overflow-y:visible;
+    background-size: cover;
+}
+#t_colores{
+    font-size: 20px;
+    text-align: center;
+}
+
+.modal_fade{
+    margin-top: 80px;
+}
+#canvas{
+    width: 450px;
+    height:450px;
+}
+.class{
+    font-family:'Source Sans Pro';
+}

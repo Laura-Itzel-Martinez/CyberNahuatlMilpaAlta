@@ -1,0 +1,83 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	color: inherit;
+	list-style: none;
+    font-family:'Source Sans Pro';
+}
+
+
+/* -----------CON GRID------------ */
+body {
+	/* ESTAS MEDIDAS SON OBLIGATORIAS PARA QUE EL SITIO MIDA COMO MINIMO EL ALTO DE LA PANTALLA */
+	min-height: 100vh;
+	height: 100%;
+	display: grid;
+	/* ARMA TRES FILAS, "AUTO" SIGNIFICA QUE EL CONTENEDOR SE ADAPTA A SU CONTENIDO, "FR" SIGINIFICA QUE LLENA EL RESTO DEL ESPACIO */
+	grid-template-rows: auto 1fr auto;
+}
+
+.card-footer{
+
+    background:#9F2241;
+    background:#9F2241 ;
+	color:white;
+
+}
+
+/* HEADER CON FLEX */
+
+header {
+	/* EL HEADER QUEDA ARRIBA */
+	position: sticky;
+	top: 0;
+	background:#9F2241 ;
+	color:white;
+	z-index: 1;
+	/* SEPARAR LOGO Y MENU */
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	/* ESTILO */
+
+	box-shadow: 0 0 20px 0 black;
+}
+
+/* NAV CON FLEX */
+nav {
+	display: flex;
+	/* EN VEZ DE DAR PADDING A LOS BOTONES, AL SER SOLO PALABRAS USAMOS "GAP" QUE AGREGA ESPACIO ENTRE LOS ITEMS, DE ESTA FORMA NO HAY QUE DARLE UN ANCHO AL NAV/UL NI PADDING/MARGIN A LOS ENLACES */
+	gap: 1em;
+}
+
+
+
+.aprendizaje {
+	padding: 3em;
+}
+
+
+
+
+.contenedor {
+	display: grid;
+
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
